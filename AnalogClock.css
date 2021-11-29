@@ -1,0 +1,53 @@
+.clockContainer{
+position: relative;
+margin: auto;
+background: url('CCClock.png') no-repeat;
+height: 37vw;
+width: 37vw;
+/* height: 440px;
+width: 440px; */
+background-size: 100%;
+top: 4vw;
+/* background-color: black; */
+}
+
+#hour{
+position: absolute;
+height: 27%;
+width: 1.4%;
+background-color: black;
+border: 1px solid black;
+border-radius: 10px;
+left: 48.85%;
+top: 22%;
+transform-origin: bottom;
+/* display: none; */
+}
+
+#minutes{
+    position: absolute;
+    height: 34.5%;
+    width: 1.2%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 48.87%;
+    top: 15%;
+    border-radius: 10px;
+    transform-origin: bottom;
+    /* display: none; */
+    }
+
+    #seconds{
+        position: absolute;
+        height: 27.5%;
+        width: 0.6%;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+        left: 49.2%;
+        top: 22%;
+        border-radius: 10px;
+        transform-origin: bottom;
+        /* display: none; */
+        }
